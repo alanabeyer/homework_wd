@@ -1,0 +1,15 @@
+# Reaction to Wire Frame Article
+#webdev #hw
+
+	Overall I really liked the emphasis on treating wire framing, less like a design practice and more like an engineering, because it treats the process of wire framing more like a foray into problem solving, than a purely aesthetic process. I also like how the article emphasized how early designs and sketches should be done rapidly with as much feed back as possible as to make the actually coding stage of the process more efficient. As a final comment, I thought it was interesting that the author mentioned that the fidelity of the final wireframe should be tailored to how tech-literate the audience is. This was a a surprise to me because I would have thought that you would always want as high fidelity product as possible so the client could always the product as fleshed out as possible.
+
+
+
+
+
+
+
+
+
+
+
