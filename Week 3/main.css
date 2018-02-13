@@ -1,0 +1,160 @@
+    * {
+      box-sizing: border-box;
+      /*keeps sizing consistent*/
+    }
+    
+    html,
+    body head {
+      margin: 0;
+    }
+    
+    .clearfix::after {
+      display: block;
+      clear: both;
+      /*if we dont clear: boxes dont close*/
+      /*to ensure cross browser and legacy compatibilty*/
+      height: 0;
+      font: 0;
+      content: '';
+      /*ultraparanoid*/
+      visibility: hidden;
+    }
+    /*use clearfix everywhere*/
+    /* div,
+header,
+main,
+footer,
+section,
+aside,
+article,
+{
+  min-height: 100px;
+  background-color: rgba(0, 100, 255, 0.2);
+} */
+    
+    header h1 {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      float: center
+    }
+    
+    header h1 {
+      font-family: "Georgia";
+      font-weight: 100;
+      display: center;
+      width: 1140px;
+      text-align: center;
+      border: 1px solid powderblue;
+      margin: 40px;
+      /* border: 1px solid powderblue; */
+    }
+    
+    main {
+      width: 990px;
+      margin: 0 auto;
+      padding: 30px;
+      border: 1px solid powderblue;
+    }
+    
+    article {
+      width: 540px;
+      float: left;
+      margin-right: 20px;
+      border: 1px solid powderblue;
+    }
+    
+    aside {
+      width: 300px;
+      float: left;
+      min-height: 200px;
+      /*       border: 1px solid powderblue; */
+      margin: 30px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    
+    h2 {
+      font-family: "Georgia";
+      font-weight: 200;
+      border: 1px solid powderblue;
+    }
+    
+    h3 {
+      font-family: "Georgia";
+      font-weight: 100;
+      /* border: 1px solid powderblue; */
+    }
+    
+    nav ul li {
+      font-family: "Georgia";
+      font-weight: 200;
+      border: 1px solid powderblue;
+    }
+    /*
+aside ul {}
+*/
+    /*     ul.vertical-menu {
+      list-style-type: none;
+      padding: 10;
+      border: 1px solid powderblue;
+    }
+    .vertical-menu li {
+      text-align: center;
+      border-bottom: 2px solid blue;
+    }
+     */
+    /*  nav ul a  {
+      list-style-type: none;
+      padding: 0;
+       display: inline-block;
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+      border: 1px solid powderblue;
+    } */
+    /*   nav  ul a:hover {
+      background-color: rgba(0, 100, 255, 0.7);
+    }
+    
+    nav ul a{
+      
+      color: purple;
+       display: inline-block;
+      text-decoration: none;
+    } */
+    /* nav li a {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      width: 40px;
+      text-align: center;
+      list-style-type: none;
+      padding: 20;
+      border: 1px solid powderblue;
+    } */
+    
+    img {
+      float: center
+    }
+    
+    nav ul a {
+      /* display: block; */
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 100;
+      border: 1px solid powderblue;
+    }
+    
+    footer ul li {
+      padding: 10px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 200;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline;
+    }
+
