@@ -2,6 +2,15 @@
       box-sizing: border-box;
       /*keeps sizing consistent*/
     }
+ 
+    html,
+    body head {
+      margin: 0;
+    }
+        * {
+      box-sizing: border-box;
+      /*keeps sizing consistent*/
+    }
     
     html,
     body head {
